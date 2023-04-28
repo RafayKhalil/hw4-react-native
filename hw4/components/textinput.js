@@ -7,8 +7,6 @@ function Textinput() {
       <TextInput
         style={styles.input}
         placeholder="Enter a city name"
-        value={city}
-        onChangeText={text => setCity(text)}
       />
     );
   };
